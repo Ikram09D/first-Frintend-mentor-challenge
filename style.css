@@ -1,0 +1,51 @@
+body{
+    background: hsl(0, 0%, 8%);
+    align-items:center;
+    font-family: "Inter", sans-serif;
+}
+div{
+    background: hsl(0, 0%, 12%);
+text-align: center;
+width: fit-content;
+margin: auto;
+margin-top: 30PX;
+border-radius: 10px;
+padding-bottom: 40PX;
+}
+h2{
+    color: white;
+    font-weight: 400;
+}
+img{
+    margin-top: 40PX;
+    border-radius: 50%;
+}
+h3{
+    color:  hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14PX;
+    margin-top: -10PX;
+}
+p{
+    color: hsl(0, 0%, 80%);
+    font-size: 14PX;
+    margin-top: 20PX;
+}
+input{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5PX;
+    width: 330PX;
+    font-weight: 700;
+    height: 40PX;
+    border: none;
+    margin-left: 30PX;
+    margin-right: 30px;
+    display: block;
+    margin-top: 20PX;
+    color: white;
+    cursor: pointer;
+}
+input:hover{
+    background-color: hsl(75, 94%, 57%); 
+    color: black;
+}
